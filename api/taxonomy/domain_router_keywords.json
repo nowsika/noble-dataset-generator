@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "domains": ["NAV", "SEA", "ARCH", "MUSIC", "GARDEN", "MOUNTAIN", "THEATER"],
+  
+  "rules": {
+    "min_score_to_lock": 2,
+    "fallback_policy": "rotate",
+    "case_insensitive": true,
+    "notes": "Simple keyword scoring. Keep lists short-ish to avoid false routing."
+  },
+
+  "keywords": {
+    "NAV": [
+      "navigate", "navigation", "route", "reroute", "course", "heading", "compass", "map", "chart", "harbor", "port",
+      "anchor", "dock", "mooring", "fog", "lighthouse", "buoy", "helm", "steer", "pilot"
+    ],
+    "SEA": [
+      "wave", "tide", "current", "storm", "sea", "ocean", "shore", "coast", "deep", "surface", "wind", "swell", "undertow"
+    ],
+    "ARCH": [
+      "foundation", "pillar", "beam", "frame", "load", "stress", "crack", "support", "structure", "threshold", "blueprint",
+      "reinforce", "brace", "scaffold"
+    ],
+    "MUSIC": [
+      "tempo", "rhythm", "beat", "melody", "harmony", "dissonance", "tuning", "phrase", "chorus", "verse", "refrain",
+      "breath", "pause", "crescendo"
+    ],
+    "GARDEN": [
+      "seed", "sprout", "root", "soil", "garden", "prune", "watering", "sunlight", "fertilizer", "weed", "bloom", "grow"
+    ],
+    "MOUNTAIN": [
+      "climb", "ascent", "descent", "ridge", "summit", "trail", "slope", "altitude", "foothold", "rest stop", "safe zone"
+    ],
+    "THEATER": [
+      "stage", "spotlight", "scene", "script", "line", "dialogue", "actor", "role", "mask", "audience",
+      "curtain", "rehearsal", "backstage"
+    ]
+  }
+}

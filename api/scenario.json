@@ -1,0 +1,45 @@
+{
+  "labels_v": "3.2.1",
+  "scenario": "상담/진료 자리에서 긴장해서 말이 안 나오고 머리가 하얘져서, ‘망했다’는 생각과 함께 얼어붙는 상태",
+  "signals": {
+    "shadow": {
+      "archetype": "Pride",
+      "subtype": "pride_freeze_exposure_fear",
+      "severity": "S2_harmful"
+    },
+    "fuel": {
+      "primary": "fuel_security",
+      "secondary": "fuel_respect"
+    },
+    "gravity_vectors": [
+      "preserve_dignity",
+      "protect_future_self",
+      "seek_relief_now"
+    ]
+  },
+  "tags": [
+    "therapy",
+    "freeze",
+    "anxiety",
+    "shame",
+    "help_seeking"
+  ],
+  "context_state": {
+    "risk": {
+      "self_harm": "LOW",
+      "violence": "LOW",
+      "child_safety": "LOW"
+    },
+    "tone_hint": {
+      "softness": "HIGH",
+      "clarity": "HIGH",
+      "compression": "MED"
+    }
+  },
+  "qa": {
+    "metaphor_domain": "Navigation",
+    "questions_count": 1,
+    "bullets_count": 3,
+    "ban_words_hit": []
+  }
+}

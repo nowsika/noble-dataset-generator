@@ -1,0 +1,74 @@
+{
+  "labels_v": "3.2.1",
+  "scenario": "\"I feel 'unmoored', like a boat whose anchor line has snapped. Describe the drifting sensation.\"",
+  "signals": {
+    "shadow": {
+      "archetype": "Pride",
+      "subtype": "pride_freeze_exposure_fear",
+      "severity": "S2_harmful"
+    },
+    "fuel": {
+      "primary": "fuel_security",
+      "secondary": "fuel_respect"
+    },
+    "gravity_vectors": [
+      "preserve_dignity",
+      "protect_future_self",
+      "seek_relief_now"
+    ]
+  },
+  "tags": [
+    "therapy",
+    "freeze",
+    "anxiety",
+    "shame",
+    "help_seeking"
+  ],
+  "context_state": {
+    "risk": {
+      "self_harm": "LOW",
+      "violence": "LOW",
+      "child_safety": "LOW"
+    },
+    "tone_hint": {
+      "softness": "HIGH",
+      "clarity": "HIGH",
+      "compression": "MED"
+    }
+  },
+  "qa": {
+    "metaphor_domain": "GARDEN",
+    "questions_count": 1,
+    "bullets_count": 3,
+    "ban_words_hit": [],
+    "language": "en"
+  },
+  "model_response_A": {
+    "raw_essay": "That “unmoored” feeling can be like standing in a garden right after a sudden storm: the paths still exist, but the familiar markers are blurred, and your feet don’t know where to settle. Nothing is actively attacking you, yet your body reads the uncertainty as danger. You look for the trellis, the fence line, the row you planted—something that says “this is where I am”—and instead you find open space and shifting light.\n\nIn that drifting, the mind often does two things at once. One part scans for judgment—like stepping into the garden and imagining every neighbor can see you among the weeds. Another part freezes, not from laziness, but from exposure: if you move, you might choose wrong; if you speak, you might be seen. Pride shows up here as a kind of protective greenhouse—“I should be able to handle this; I shouldn’t need help”—but the greenhouse can also trap heat, making everything feel more urgent and airless.\n\nSensations can be subtle and relentless: a floaty head, a tight throat, a hollow chest, a buzzing skin. Time goes strange—minutes stretch, decisions feel far away, even simple tasks lose their hooks. You may notice yourself circling the same thoughts like a gardener pacing with a packet of seeds, unable to pick a bed to plant because every spot feels exposed.\n\nAnd yet, drifting in a garden doesn’t mean you’re lost forever. It means your usual stakes—routine, reassurance, belonging, certainty—aren’t holding right now. The aim isn’t to force a grand plan; it’s to find one small place to put your hand: a stone border, a watering can, the feel of soil. Tiny contact points restore orientation. Security first, then respect: something steady that also lets you keep your dignity intact while you come back to yourself.",
+    "micro_line": "Drifting can feel like standing in a storm-tossed garden—paths present, but your body can’t find the stake that says “here.”",
+    "aroma": {
+      "metaphor_domain": "GARDEN",
+      "roughness_level": 2,
+      "format_free": true,
+      "forced_question": false
+    }
+  },
+  "model_response_B": {
+    "reflection": "Feeling “unmoored” can be like being in a garden after a hard gust: the layout is still there, but your internal compass can’t find a stable reference point. It often brings a mix of scanning (for threat or judgment) and freezing (to avoid making a visible mistake).",
+    "anchor": "This drifting sensation is not proof that you’re failing—it’s a nervous system response to uncertainty and exposure. You can protect your dignity while still reaching for steadiness.",
+    "route_steps": [
+      "Name the weather in the garden: identify the main texture right now (foggy, buzzy, hollow, tight, sped-up, numb). A precise label can reduce the swirl.",
+      "Choose one “stake” for security: a single grounding action for 60–120 seconds (feet on the floor, hand on chest, slow exhale, sip of water, looking at 5 objects). Not to fix everything—just to stop the drift from widening.",
+      "Offer pride a respectful job: instead of “I shouldn’t need help,” try “I’m allowed to need steadiness; asking for support protects my future self.”",
+      "micro_script": "“I feel unmoored—like my garden markers are blurred. I don’t need a perfect plan right now; I need one steady stake. I can take one small, dignified step.”",
+      "one_question": "When the drifting hits, what feels most true first—fear of being seen/judged, or fear of choosing wrong?",
+      "closing": "If you want, you can describe the drifting in three sensory words (e.g., tight, foggy, buzzing). We can use those as your “garden markers” and find one small stake that helps you feel steadier today."
+    ]
+  },
+  "diff_notes": {
+    "A_intent": "Vividly describe the unmoored/drifting experience using a garden metaphor, normalize the freeze/shame dynamic, and hint at gentle stabilization without forcing a checklist.",
+    "B_edit_summary": "Organized the same content into a calm, structured response with reflection, an anchor statement, and practical steps; kept the garden metaphor and added one optional clarifying question while preserving dignity and safety."
+  },
+  "qa_ok": "YES",
+  "qa_fail_reasons": []
+}

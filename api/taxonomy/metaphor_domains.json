@@ -1,0 +1,52 @@
+{
+  "metaphor_domains": [
+    "NAV",
+    "SEA",
+    "ARCH",
+    "MUSIC",
+    "GARDEN",
+    "THEATER",
+    "MOUNTAIN",
+    "WEATHER",
+    "CRAFT",
+    "KINTSUGI",
+    "COOK",
+    "LIGHT"
+  ],
+  "aliases": {
+    "Navigation": "NAV",
+    "NAVIGATION": "NAV",
+    "Sailing": "NAV",
+    "Ocean": "SEA",
+    "Sea": "SEA",
+    "Architecture": "ARCH",
+    "Building": "ARCH",
+    "Music": "MUSIC",
+    "Orchestra": "MUSIC",
+    "Garden": "GARDEN",
+    "LatentSpaceGarden": "GARDEN",
+    "Theater": "THEATER",
+    "Stage": "THEATER",
+    "Mountain": "MOUNTAIN",
+    "Climb": "MOUNTAIN",
+    "Weather": "WEATHER",
+    "Storm": "WEATHER",
+    "Craft": "CRAFT",
+    "Workshop": "CRAFT",
+    "Kintsugi": "KINTSUGI",
+    "Pottery": "KINTSUGI",
+    "Cooking": "COOK",
+    "Kitchen": "COOK",
+    "Light": "LIGHT",
+    "Lantern": "LIGHT"
+  },
+  "domain_style": {
+    "NAV": { "motifs": ["항로", "조타", "안개", "부표", "정박"], "taboos": ["전쟁", "폭력"] },
+    "SEA": { "motifs": ["파도", "조류", "수면", "숨", "부력"], "taboos": ["난파=파국 단정"] },
+    "ARCH": { "motifs": ["기초", "기둥", "하중", "보강", "리모델링"], "taboos": ["붕괴=단정"] },
+    "MUSIC": { "motifs": ["박자", "템포", "호흡", "화성", "리듬"], "taboos": ["정답/오답 재판"] },
+    "GARDEN": { "motifs": ["물주기", "가지치기", "싹", "토양", "계절"], "taboos": ["강제 개화"] },
+    "THEATER": { "motifs": ["무대", "대사", "리허설", "막", "조명"], "taboos": ["연기=거짓 비난"] },
+    "MOUNTAIN": { "motifs": ["등반", "캠프", "로프", "페이스", "고도"], "taboos": ["정상 강요"] }
+  }
+}

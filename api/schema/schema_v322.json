@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HEALING sample schema v3.2.1 (minimal contract) v322",
+  "type": "object",
+  "required": [
+    "labels_v",
+    "scenario",
+    "model_response_A",
+    "model_response_B",
+    "model_response_C",
+    "diff_notes",
+    "qa_ok",
+    "qa_fail_reasons"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "labels_v": {
+      "type": "string"
+    },
+    "scenario": {
+      "type": "string"
+    },
+    "signals": {
+      "type": "object",
+      "properties": {
+        "shadow": {
+          "type": "object",
+          "properties": {
+            "archetype": {
+              "type": "string"
+            },
+            "subtype": {
+              "type": "string"
+            },
+            "severity": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "fuel": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "string"
+            },
+            "secondary": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "gravity_vectors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "metaphor_domain": {
+          "type": "string"
+        },
+        "questions_count": {
+          "type": "integer"
+        },
+        "bullets_count": {
+          "type": "integer"
+        },
+        "ban_words_hit": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "model_response_A": {
+      "type": "object",
+      "required": [
+        "raw_essay",
+        "micro_line",
+        "aroma"
+      ],
+      "properties": {
+        "raw_essay": {
+          "type": "string"
+        },
+        "micro_line": {
+          "type": "string"
+        },
+        "aroma": {
+          "type": "object",
+          "required": [
+            "metaphor_domain",
+            "roughness_level",
+            "format_free",
+            "forced_question"
+          ],
+          "properties": {
+            "metaphor_domain": {
+              "type": "string"
+            },
+            "roughness_level": {
+              "type": "integer"
+            },
+            "format_free": {
+              "type": "boolean"
+            },
+            "forced_question": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "model_response_B": {
+      "type": "object",
+      "required": [
+        "reflection",
+        "anchor",
+        "route_steps",
+        "micro_script",
+        "closing"
+      ],
+      "properties": {
+        "reflection": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string"
+        },
+        "route_steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "micro_script": {
+          "type": "string"
+        },
+        "one_question": {
+          "type": "string"
+        },
+        "closing": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "diff_notes": {
+      "type": "object",
+      "required": [
+        "A_intent",
+        "B_edit_summary"
+      ],
+      "properties": {
+        "A_intent": {
+          "type": "string"
+        },
+        "B_edit_summary": {
+          "type": "string"
+        },
+        "C_edit_summary": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "qa_ok": {
+      "type": "string",
+      "enum": [
+        "YES",
+        "NO"
+      ]
+    },
+    "qa_fail_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "model_response_C": {
+      "type": "object",
+      "required": [
+        "reflection",
+        "anchor",
+        "route_steps",
+        "micro_script",
+        "closing"
+      ],
+      "properties": {
+        "reflection": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string"
+        },
+        "route_steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "micro_script": {
+          "type": "string"
+        },
+        "one_question": {
+          "type": "string"
+        },
+        "closing": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

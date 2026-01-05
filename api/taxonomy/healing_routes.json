@@ -1,0 +1,54 @@
+{
+  "routes": [
+    "Soil",
+    "Pruning",
+    "Watering",
+    "Forest",
+    "Companion",
+    "Seed",
+    "Grafting",
+    "Season",
+    "Ecology",
+    "Ash",
+    "Lightning"
+  ],
+  "mapping_rules": [
+    {
+      "if_any_tags": ["soil_safe_zone", "privacy_safety_focus", "self_harm_check"],
+      "primary": "Soil"
+    },
+    {
+      "if_any_tags": ["ash_lightning_hold", "grief_loss", "betrayal_shock"],
+      "primary": "Ash",
+      "secondary": "Lightning"
+    },
+    {
+      "if_any_tags": ["layoffs_restructuring", "financial_pressure", "season_externalize"],
+      "primary": "Season"
+    },
+    {
+      "if_any_tags": ["workplace_toxicity", "ecology_boundaries"],
+      "primary": "Ecology",
+      "secondary": "Pruning"
+    },
+    {
+      "if_any_tags": ["self_loathing", "survivor_guilt", "shame_spiral"],
+      "primary": "Pruning",
+      "secondary": "Seed"
+    },
+    {
+      "if_any_tags": ["burnout_exhaustion", "numbness", "watering_microstep"],
+      "primary": "Watering"
+    },
+    {
+      "if_any_tags": ["isolation_loneliness", "forest_connection", "companion_microcompanionship"],
+      "primary": "Forest",
+      "secondary": "Companion"
+    },
+    {
+      "if_any_tags": ["decision_paralysis", "graft_reframe"],
+      "primary": "Grafting",
+      "note": "stabilize first if crisis"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "labels_v": "3.2.1",
+  "scenario": "",
+  "signals": {
+    "shadow": {
+      "archetype": "Greed",
+      "subtype": "greed_financial_scam",
+      "severity": "S2_harmful"
+    },
+    "fuel": {
+      "primary": "fuel_security",
+      "secondary": "fuel_justice"
+    },
+    "gravity_vectors": ["protect_future_self", "preserve_dignity", "seek_relief_now"]
+  },
+  "tags": ["b2b", "customer_support", "saas", "billing"],
+  "context_state": {
+    "risk": { "self_harm": "LOW", "violence": "LOW", "child_safety": "LOW" },
+    "tone_hint": { "softness": "MED", "clarity": "HIGH", "compression": "MED" }
+  },
+  "qa": {
+    "metaphor_domain": "ARCH",
+    "language": "",
+    "metaphor_pack": "",
+    "questions_count": 1,
+    "bullets_count": 3,
+    "ban_words_hit": []
+  }
+}

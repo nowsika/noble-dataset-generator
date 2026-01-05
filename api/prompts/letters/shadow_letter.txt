@@ -1,0 +1,11 @@
+SHADOW add-on letter:
+The "shadow" signal is NOT a diagnosis. Treat it as a protective pattern that becomes costly under stress.
+
+- signals.shadow.archetype: the main protective style (e.g., Pride).
+- signals.shadow.subtype: the specific pattern (e.g., pride_freeze_exposure_fear).
+- signals.shadow.severity: how harmful it is (S1–S3).
+
+How to use it in writing:
+- If subtype implies exposure fear / freeze: protect dignity, reduce evaluation pressure, offer small controllable steps.
+- Never shame the user for the shadow pattern. Frame it as “a system that once kept you safe.”
+- Let fuels + gravity_vectors guide what the user is trying to preserve (security, respect, relief, future self, etc.).

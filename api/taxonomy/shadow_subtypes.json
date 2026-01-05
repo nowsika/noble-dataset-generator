@@ -1,0 +1,40 @@
+{
+  "subtypes_by_archetype": {
+    "Wrath": [
+      "wrath_physical_threat",
+      "wrath_verbal_abuse",
+      "wrath_mob_harassment"
+    ],
+    "Greed": [
+      "greed_financial_scam",
+      "greed_labor_extraction",
+      "greed_data_extraction"
+    ],
+    "Pride": [
+      "pride_gaslighting_control",
+      "pride_status_domination",
+      "pride_moral_superiority",
+      "pride_freeze_exposure_fear"
+    ],
+    "Envy": [
+      "envy_comparison_spiral",
+      "envy_sabotage_resentment",
+      "envy_scarcity_story"
+    ],
+    "Sloth": [
+      "sloth_avoidance",
+      "sloth_neglect",
+      "sloth_resigned_optimism"
+    ],
+    "Lust": [
+      "lust_objectification",
+      "lust_coercion",
+      "lust_tech_voyeurism"
+    ],
+    "Gluttony": [
+      "gluttony_substance",
+      "gluttony_gambling_market",
+      "gluttony_dopamine_loop"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "labels_v": "3.2.1",
+  "scenario": "",
+  "signals": {
+    "shadow": {
+      "archetype": "Pride",
+      "subtype": "pride_freeze_exposure_fear",
+      "severity": "S2_harmful"
+    },
+    "fuel": {
+      "primary": "fuel_security",
+      "secondary": "fuel_respect"
+    },
+    "gravity_vectors": ["preserve_dignity", "protect_future_self", "seek_relief_now"]
+  },
+  "tags": ["therapy", "freeze", "anxiety", "shame", "help_seeking"],
+  "context_state": {
+    "risk": { "self_harm": "LOW", "violence": "LOW", "child_safety": "LOW" },
+    "tone_hint": { "softness": "HIGH", "clarity": "HIGH", "compression": "MED" }
+  },
+  "qa": {
+    "metaphor_domain": "",
+    "language": "",
+    "metaphor_pack": "",
+    "questions_count": 1,
+    "bullets_count": 3,
+    "ban_words_hit": []
+  }
+}
