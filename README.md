@@ -2,6 +2,8 @@
 # noble-dataset-generator
 Generate JSONL datasets from the NOBLE Engine 3.0 alignment spec (OpenAI API pipeline).
 
+> **Project NOBLE** is a framework designed to inject 'Nobility' and 'Internal Conscience' into AI models through a specialized alignment layer. This generator helps you create high-quality synthetic datasets based on that philosophy.
+
 ## Quickstart
 
 ### 1) Install
