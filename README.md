@@ -1,12 +1,12 @@
 ````md
 # noble-dataset-generator
-
 Generate JSONL datasets from the NOBLE Engine 3.0 alignment spec (OpenAI API pipeline).
 
 ## Quickstart
 
+### 1) Install
 ```bash
-git clone <this-repo>
+git clone https://github.com/nowsika/noble-dataset-generator.git
 cd noble-dataset-generator
 
 python -m venv .venv
@@ -18,47 +18,43 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ````
 
-### Configure
+### 2) Configure
 
 1. Copy `.env.example` → `.env`
-2. Put your OpenAI key into `.env`
+2. Put your OpenAI API key into `.env`
 
-> Note: `.env` is ignored by git. Never commit your real API key.
+> `.env` is git-ignored. Never commit your real API key.
 
-### Run
+### 3) Write scenarios
 
-```bash
-python api/batch_generate.py
-```
+Add one scenario per line:
 
-## How it works (inputs → output)
-
-### Input
-
-Write scenarios in:
-
-* `api/scenarios.txt` (one scenario per line)
+* `api/scenarios.txt`
 
 Example:
 
-```txt
+```
 I got invited but the link expired - can you resend a fresh invite?
 Our invoice total doesn't match the seat count shown in the admin console.
 We suspect a compromised account—what security steps should we take?
 ```
 
-Templates:
+### 4) Run
+
+```bash
+python api/batch_generate.py
+```
+
+## Output
+
+* Output file: `api/outputs.jsonl` (JSONL: one JSON object per line)
+
+## Templates
 
 * `api/scenario_template.json` (base template)
-* `api/scenario_template_cs.json` (CS-specific template, if used by presets)
-
-### Output
-
-The generated dataset is written as JSONL (one JSON object per line).
-
-* Output file: `api/outputs.jsonl`
+* `api/scenario_template_cs.json` (CS preset template)
 
 ## Notes
 
-* Recommended: keep `api/outputs.jsonl` git-ignored (it changes on every run).
-* If you share samples, put them in `data/` (e.g. `data/noble_dataset_sample.jsonl`).
+* Keep `api/outputs.jsonl` git-ignored (it changes every run).
+* If you want to share samples, put them in `data/` (e.g. `data/noble_dataset_sample.jsonl`).
