@@ -62,5 +62,3 @@ The generated dataset is written as JSONL (one JSON object per line).
 
 * Recommended: keep `api/outputs.jsonl` git-ignored (it changes on every run).
 * If you share samples, put them in `data/` (e.g. `data/noble_dataset_sample.jsonl`).
-
-```
