@@ -60,3 +60,7 @@ python api/batch_generate.py
 
 * Keep `api/outputs.jsonl` git-ignored (it changes every run).
 * If you want to share samples, put them in `data/` (e.g. `data/noble_dataset_sample.jsonl`).
+
+## Attribution
+If you use this work, please cite/credit:
+- **NOBLE Engine 3.0 — by Young-Hun Choe**
